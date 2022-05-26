@@ -20,11 +20,10 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/wireless-road/openwrt.git
-  REPO_BRANCH: imx6ull-2021-cand
+  REPO_URL: https://github.com/lmahmutov/SGW-Openwrt.git
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
-  ADD_FEED_SH: add_feeds.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
